@@ -41,7 +41,15 @@
                                         <next>
                                           <block type="movement_stutter" id="141">
                                             <next>
-                                              <block type="movement_stop" id="111"></block>
+                                              <block type="movement_stop" id="111">
+                                                <next>
+                                                  <block type="movement_reverse" id="160">
+                                                    <next>
+                                                      <block type="movement_stop" id="170"></block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
                                             </next>
                                           </block>
                                         </next>
